@@ -8,9 +8,10 @@
  + For each basket b_i, items {v_j} are separated by a space ' '
      e.g., v_1 v_2 v_3 ... v_m
 
-@How to run: main_gpu.sh/main_gpu_mcnet.sh
+@How to run: main_gpu.sh
   + Use --train_mode to enable the training mode
   + Use --prediction_mode to generate evaluation metrics
+  + We support 5 main model types namely: bseq_support, bseq_target, cbs_sn, cbs_cfn, cbs_dfn
 
 @How to collect results from different seeds: Use collect_result.sh
 
