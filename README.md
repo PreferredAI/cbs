@@ -1,4 +1,4 @@
-## The implementation of twin networks in the 'Modeling Contemporaneous Basket Sequences with Twin Networks for Next-Item Recommendation'paper (IJCAI'18)
+## The implementation of twin networks in the '[Modeling Contemporaneous Basket Sequences with Twin Networks for Next-Item Recommendation](https://www.ijcai.org/proceedings/2018/0474.pdf)'paper (IJCAI'18)
 
 1. Input format(s): 
  + For each CBS instance, the basket sequences and the grouth-truth item are separated by '=>' 
@@ -15,5 +15,18 @@
 
 3. How to collect results from different seeds: Use collect_result.sh
 
- 
+```
+@inproceedings{le2018cbs,
+  title={Modeling Contemporaneous Basket Sequences with Twin Networks for Next-Item Recommendation},
+  author={Le, Duc-Trong, Lauw, Hady W and Fang, Yuan},
+  booktitle={Proceedings of the International Joint Conference on Artificial Intelligence},
+  year={2018},
+}
+```
+
+## Requirements
+
+- Python == 3.6
+- Tensorflow == 1.14
+- scipy.sparse == 1.3.0
 
