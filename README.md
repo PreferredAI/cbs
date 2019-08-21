@@ -15,6 +15,7 @@
 
 3. How to collect results from different seeds: Use collect_result.sh
 
+4. If you find the code useful in your research, please cite:
 ```
 @inproceedings{le2018cbs,
   title={Modeling Contemporaneous Basket Sequences with Twin Networks for Next-Item Recommendation},
